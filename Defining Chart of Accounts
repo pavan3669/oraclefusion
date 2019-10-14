@@ -1,0 +1,12 @@
+Chart of accounts value sets
+COA	Str
+	Def seg
+	Assign seg labels
+	Assign value set
+COA	Str Instance
+	Enable segs
+Deploy str instance
+Manage value set values
+
+
+Value sets: Company, Cost Center, Natural Accounts, Product, Future
