@@ -9,4 +9,24 @@ Deploy str instance
 Manage value set values
 
 
-Value sets: Company, Cost Center, Natural Accounts, Product, Future
+COA Value sets: XX_Company, XX_Cost Center, XX_Natural Accounts, XX_Product, XX_Future (CCNPF)
+
+COA Structures: Str code: CIPLA_LABS, Cipla Labs Structure
+
+Create key flexfield segment: Company, Cost Center, Natural Accounts, Product, Future1 (CCNPF)
+
+
+Error: Flexfield metadata validation passed.
+Validating flexfield GL# of Application 101 ...
+.
+1. ERROR: Flexfield metadata validation error :
+.
+JBO-FND:::FND_KF_STR_NO_REQUIRED_LABEL: <MESSAGE><NUMBER>FND-2742</NUMBER><TEXT>You must assign a required label GL_ACCOUNT to at least one segment.</TEXT><CAUSE></CAUSE><ACTION></ACTION><DETAILS>In application 101, key flexfield GL#, and structure CIPLA_LABS, you need to assign required segment label GL_ACCOUNT to at least one segment.</DETAILS><INCIDENT></INCIDENT></MESSAGE>
+.
+ACTION NEEDED: Please correct flexfield metadata and retry deploying the flexfield.
+
+
+
+
+
+
